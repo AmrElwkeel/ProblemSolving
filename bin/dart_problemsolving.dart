@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dart_problemsolving/dart_problemsolving.dart' as dart_problemsolving;
 
 void main(List<String> arguments) {
@@ -14,6 +16,18 @@ void main(List<String> arguments) {
   //       }
   //    }
 
+  ///Create a program that asks the user
+  /// for a number and then prints out a list of all the divisors of that number.
+  /// Solution
+  //
+  //   stdout.write('Choose a Number For Operation: ');
+  //   int number = int.parse(stdin.readLineSync().toString());
+  //   for(var i = 1 ; i <= number ;i++){
+  //
+  //      if(number % i == 0){
+  //         print(i);
+  //      }
+  //   }
 
 
 
