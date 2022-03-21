@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 import 'package:dart_problemsolving/dart_problemsolving.dart' as dart_problemsolving;
 
@@ -47,8 +48,36 @@ void main(List<String> arguments) {
   //  }
   // print(li.toList());
 
+  /// Let’s say you are given a list saved in a variable:
+  ///Write a Dart code that takes this list and makes
+  ///a new list that has only the even elements of this list in it.
+  ///Solution
+  //
+  // List<int> a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+  // int o = 0 ;
+  // List<int> l = [];
+  //
+  // for(var i in a){
+  //     if(++o %2 == 0){
+  //       l.add(i);
+  //     }
+  // }
+  // print(l);
 
-
-
+  /// Write a program that takes a list of numbers for example
+ /// and makes a new list of only the first and last elements of the
+ ///given list. For practice, write this code inside a function.
+  ///Solution
+//   final random = Random();
+//   List<int> randList = List.generate(10, (_) => random.nextInt(1000));
+//
+//   // Pass it to the function
+//   print(randList);
+//   print(newList(randList));
+//  }
+//
+// // Function that returns the first and the last element of given list
+// List<int> newList(List<int> initialList) {
+//   return [initialList.first, initialList.last];
 
 }
